@@ -7,3 +7,13 @@
          metadata-complete="true">
 
 </web-app>
+
+
+    <servlet>
+        <servlet-name>filedown</servlet-name>
+        <servlet-class>com.kuang.servlet.FileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>filedown</servlet-name>
+        <url-pattern>/down</url-pattern>
+    </servlet-mapping>
