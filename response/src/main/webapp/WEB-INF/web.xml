@@ -23,4 +23,22 @@
         <servlet-name>ImageServlet</servlet-name>
         <url-pattern>/img</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>com.kuang.servlet.RedirectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RedirectServlet</servlet-name>
+        <url-pattern>/red</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>request</servlet-name>
+        <servlet-class>com.kuang.servlet.RequestTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>request</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
 </web-app>
